@@ -12,12 +12,12 @@ var catArray = {
 	cats: [
 			{
 				name: "Sarah",
-				img: "tiger",
+				img: "img/tiger",
 				count: "0",
 			},
 			{
 				name: "Karol",
-				img: "tiger1",
+				img: "img/tiger1",
 				count: "0",
 			},
 		]
@@ -25,6 +25,7 @@ var catArray = {
 
 if (catArray.cats.lenght > 0) {
 	catArray.cats.forEach(funtion(cat) {
+		$(.main)append("<div>+cat.img+</div>")
 
-	};
+	});
 }
