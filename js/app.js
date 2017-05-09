@@ -24,7 +24,7 @@ var catArray = {
 };
 
 if (catArray.cats.lenght > 0) {
-	catArray.cats.forEach(function(cat) {
+	catArray.cats.forEach(funtion(cat) {
 
 	};
 }
