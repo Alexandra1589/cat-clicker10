@@ -1,11 +1,11 @@
 $(document).ready(function() {
-var count = 0
+var count = 0;
 
 $('.tiger').click(function() {
 	count ++;
 	console.log(count);
 	$('.counterBox').html(count);
-	})
+	});
 });
 
 var catArray = {
@@ -25,7 +25,9 @@ var catArray = {
 
 if (catArray.cats.lenght > 0) {
 	catArray.cats.forEach(funtion(cat) {
-		$(.main).append("<div> +cat.img+ </div>")
+		$(.main).append("<div> + cats.name + </div>");
+		$(.main).append("<div> + cats.img + </div>");
+		$(.main).append("<div> + cats.count + </div>");
 
 	});
 }
