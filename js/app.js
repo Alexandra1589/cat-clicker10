@@ -25,7 +25,7 @@ var catArray = {
 
 if (catArray.cats.lenght > 0) {
 	catArray.cats.forEach(funtion(cat) {
-		$(.main)append("<div>+cat.img+</div>")
+		$(.main).append("<div> +cat.img+ </div>")
 
 	});
 }
