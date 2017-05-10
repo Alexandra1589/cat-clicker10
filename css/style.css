@@ -4,9 +4,8 @@
 	font-weight: bold;
 }
 
-.main {
-	display: inline-block;
-	position: relative;
+#catlist {
+	width: 50%;
 }
 
 .tiger {

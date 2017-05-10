@@ -10,7 +10,7 @@ $('.tiger').click(function() {
 
 var catArray = {
 	cats: [
-			{
+			{  
 				name: "Sarah",
 				img: "img/tiger",
 				count: "0",
@@ -23,11 +23,11 @@ var catArray = {
 		]
 };
 
-if (catArray.cats.lenght > 0) {
-	catArray.cats.forEach(funtion(cat) {
-		$(.main).append("<div> + cats.name + </div>");
-		$(.main).append("<div> + cats.img + </div>");
-		$(.main).append("<div> + cats.count + </div>");
+if (catArray.cats.length > 0) {
+	catArray.cats.forEach(function(cat) {
+		$(".main").append('<ul>' + cat.name + '</ul>');
+		$(".main").append('<ul>' + cat.img + '</ul>');
+		$(".main").append('<li>' + cat.count + '</li');
 
 	});
 }
