@@ -4,38 +4,33 @@
 	font-weight: bold;
 }
 
-#catlist {
-	width: 50%;
-}
 
+
+#cat1 {
+	text-align: center;
+
+}
 .tiger {
 	width: 50%;
-	padding-right: 2em;
 
 }
 
 .tiger1 {
 	width: 50%;
-	padding-right: 2em;
-	float: right;
 
 }
 
-p {
-	width: 50%;
-	font-size: 2em;
-	font-weight: bold;
+.count {
+	font-size: 25px;
 }
 
-.counterBox {
-	width: 150px;
-	height: 125px;
-	border-width: 10px;
-	font-size: 80px;
-	text-align: center;
-	background-color: #848482;
-	margin-left: 150px;
+.count1 {
+	font-size:25px;
+}
 
+
+li {
+	list-style: none;
 }
 
 

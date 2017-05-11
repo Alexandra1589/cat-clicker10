@@ -4,30 +4,17 @@ var count = 0;
 $('.tiger').click(function() {
 	count ++;
 	console.log(count);
-	$('.counterBox').html(count);
+	$(".count").empty('<p>'+count+'</p>');
+	$(".count").append('<p>'+count+'</p>');
+	});
+
+var count1 = 0;
+
+$('.tiger1').click(function() {
+	count1 ++;
+	console.log(count1);
+	$(".count1").empty('<p>'+count1+'</p>');
+	$(".count1").append('<p>'+count1+'</p>');
 	});
 });
 
-var catArray = {
-	cats: [
-			{  
-				name: "Sarah",
-				img: "img/tiger",
-				count: "0",
-			},
-			{
-				name: "Karol",
-				img: "img/tiger1",
-				count: "0",
-			},
-		]
-};
-
-if (catArray.cats.length > 0) {
-	catArray.cats.forEach(function(cat) {
-		$(".main").append('<ul>' + cat.name + '</ul>');
-		$(".main").append('<ul>' + cat.img + '</ul>');
-		$(".main").append('<li>' + cat.count + '</li');
-
-	});
-}
