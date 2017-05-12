@@ -4,34 +4,22 @@
 	font-weight: bold;
 }
 
-
-
-#cat1 {
-	text-align: center;
-
-}
-.tiger {
-	width: 50%;
-
-}
-
-.tiger1 {
-	width: 50%;
-
-}
-
-.count {
+li {
+	list-style: none;
 	font-size: 25px;
 }
 
-.count1 {
-	font-size:25px;
+.nameList {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#main {
+	text-align: center;
+	font-size:30px;
 }
 
 
-li {
-	list-style: none;
-}
 
 
 
