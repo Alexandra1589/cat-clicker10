@@ -77,6 +77,9 @@ var catArray = {
 };
 
 
+
+
+
 catArray.cat.forEach(function(cat){
 	$('#main').append('<div id="'+cat.name+'">'+cat.name+'</div><img id="photo'+cat.name+'"src="'+cat.img+'"><p id="count'+cat.name+'">'+ cat.count + '</p>');
 	$('#photo'+cat.name).click(function(){
